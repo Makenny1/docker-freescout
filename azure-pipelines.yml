@@ -19,7 +19,6 @@ steps:
   inputs:
     awsCredentials: 'AWS-Azure-User'
     regionName: 'ap-southeast-2'
-    imageSource: 'imagename'
     sourceImageName: 'freescout'
     repositoryName: 'freescout'
 - task: AWSCLI@1
